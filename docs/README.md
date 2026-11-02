@@ -1,0 +1,17 @@
+# Somnasound documentation
+
+- [Workspace layout](workspace.md)
+- [Product plan](product-plan.md)
+- [Decision register](decision-register.md)
+- [Architecture research](architecture-review-research.md)
+- [Streaming, procedural audio, and front-panel research](streaming-and-procedural-audio-research.md)
+- [UK-oriented manufacturing options](manufacturing/uk-manufacturing-options.md)
+- [Harness setup](harness.md)
+- [System architecture](architecture.md)
+- [Hardware and firmware conventions](hardware-firmware.md)
+- [Work-package template](work-packages/TEMPLATE.md)
+- [Work package 001: audio stimulus generator](work-packages/001-audio-stimulus-generator.md)
+- [Draft work package 002: procedural ambience proof](work-packages/002-procedural-ambience-proof.md)
+- [Draft work package 003: local media, web, and Wi-Fi spike](work-packages/003-media-source-spike.md)
+- [Draft work package 004: front-panel production validation](work-packages/004-front-panel-prototype.md)
+- [Draft work package 005: contract-manufacturing handoff](work-packages/005-pcbway-manufacturing-handoff.md)

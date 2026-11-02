@@ -1,0 +1,16 @@
+{
+  "name": "somnasound",
+  "version": "1.0.0",
+  "description": "Somnasound edge-device workspace",
+  "private": true,
+  "workspaces": [
+    "harness"
+  ],
+  "scripts": {
+    "start": "npm --workspace=harness run start",
+    "lint": "npm --workspace=harness run lint",
+    "handshake": "npm --workspace=harness run handshake",
+    "typecheck": "npm --workspace=harness run typecheck"
+  },
+  "license": "UNLICENSED"
+}

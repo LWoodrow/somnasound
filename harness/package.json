@@ -1,0 +1,42 @@
+{
+  "$schema": "https://www.schemastore.org/package.json",
+  "name": "@somnasound/harness",
+  "version": "1.0.0",
+  "description": "Somnasound Slack/Bolt orchestration harness",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "start": "node app.js",
+    "handshake": "tsx src/handshake.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slack-samples/bolt-js-blank-template.git"
+  },
+  "keywords": [
+    "slack",
+    "bolt",
+    "slackapi"
+  ],
+  "author": "Slack Technologies, LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slack-samples/bolt-js-blank-template/issues"
+  },
+  "homepage": "https://github.com/slack-samples/bolt-js-blank-template#readme",
+  "dependencies": {
+    "@slack/bolt": "^5.1.0",
+    "@slack/web-api": "^8.3.0",
+    "dotenv": "^18.0.9"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@biomejs/biome": "2.6.4",
+    "@slack/cli-hooks": "^2.0.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

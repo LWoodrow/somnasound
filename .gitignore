@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
+
+# KiCad generated manufacturing and local-cache files
+hardware/fabrication/**
+!hardware/fabrication/.gitkeep
+hardware/kicad/**/fp-info-cache
+hardware/kicad/**/*-backups/
